@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(46, 35, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    color: rgb(0, 0, 180);
+}
+
+.contaner {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px 20px 0px 20px;
+    width: 300px;
+}
+
+#input_box {
+    background: rgb(240, 240, 240);
+    padding: 10px;
+    border: 0.1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    width: 230px;
+    height: 18px;
+    margin: 30px 0px 20px 0px;
+}
+#password {
+    background: rgb(240, 240, 240);
+    padding: 10px;
+    border: 0.1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    width: 230px;
+    height: 18px;
+    margin-bottom: 20px;
+}
+.log-in {
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    background: rgb(63, 63, 255);
+    border: 0.9px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+.forgate-password {
+    text-decoration: none;
+    color: rgb(0, 0, 220);
+}
+
+#or{
+    margin: 10px 20px 25px;
+    font-weight: bolder;
+}
+
+.new-id{
+    margin: 20px 20px 15px 20px;
+}
+
+.new{
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    background: rgb(63, 63, 255);
+    border: 0.9px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.new-acc{
+    text-decoration: none;
+    color: rgb(1, 1, 184);
+    font-weight: bold
+}
